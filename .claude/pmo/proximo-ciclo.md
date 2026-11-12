@@ -38,18 +38,14 @@ Sugestão de escopo para o ciclo: itens 1, 2 e 3 (baixo esforço, base para o re
 Hoje o site pessoal não cita a ACK. A ideia é ligar os dois sites sem quebrar a regra de não ter
 o nome pessoal no site da ACK.
 
-**Decisão do usuário antes de começar:** o link vai só do pessoal para a ACK (recomendado, não
-mexe na regra) ou também da ACK para o pessoal? A segunda opção põe o nome pessoal no site da ACK
-e exige mudar `content-rules.md`.
+**Decidido (2026-11-12):** o link vai só do pessoal para a ACK. O site da ACK continua sem nome pessoal.
 
 Pessoal → ACK (feito com a skill `site-pessoal`, push com confirmação):
-- [ ] Citar a ACK na seção de atuação (`#services`) ou na de contato (`#contact`) de
-      `vitorbazevedo.com`, com link para `https://ackconsultoria.com`.
-- [ ] Link para a ACK no rodapé do site pessoal (replicar em todas as páginas, a nav e o
-      rodapé são duplicados por arquivo).
-- [ ] Assinatura/bio no fim dos posts do blog pessoal mencionando a ACK.
-- [ ] JSON-LD do site pessoal: `Person` com `worksFor` apontando para a organização ACK
-      (`url: https://ackconsultoria.com`). Liga as duas entidades para o Google sem pôr nome no site da ACK.
+- [x] Citar a ACK em Atuação (card "Consultoria para Empresas") e em Contato do
+      `vitorbazevedo.com`, com link para `https://ackconsultoria.com`. Publicado em 2026-11-12.
+- [x] Link para a ACK no rodapé de todas as páginas do site pessoal e no template de post.
+- [x] Link "Conheça a ACK Consultoria" no author-box dos posts (e no template).
+- [x] JSON-LD do site pessoal: `Person` com `worksFor` apontando para a ACK.
 
 Fora dos sites:
 - [ ] Página da ACK no LinkedIn (empresa) e o projeto/experiência no perfil pessoal com link

@@ -4,6 +4,11 @@ Eventos e decisões que não ficam óbvios pelo `git log`. Mantido pelo agente `
 
 ---
 
+## 2026-11-12 — Backlinking publicado no site pessoal
+
+vitorbazevedo.com passou a linkar a ACK (Atuação, Contato, rodapé, author-box, `worksFor`).
+Decisão: só pessoal → ACK. Pendentes com o usuário: LinkedIn da empresa e Search Console.
+
 ## 2026-11-12 — Plano do próximo ciclo preparado
 
 Novas ideias no backlog: aba de notícias (fintechs, FIDCs, fraudes) e backlinking com

@@ -27,7 +27,7 @@ Proposta de ordem e próximos passos do próximo ciclo: [`proximo-ciclo.md`](pro
 | Item | Status | Notas |
 |---|---|---|
 | **Escolher ferramenta de métricas** (visitas e cliques em contato) | Ideia — prioridade alta | Decisão importante, a fazer com calma. Critérios: sem cookies (dispensa banner LGPD), gratuita ou barata, conta eventos de clique. Botões já têm `data-track` (`cta-hero`, `contato-whatsapp`, `contato-email`) |
-| Estratégia de backlinking com vitorbazevedo.com | Ideia | Sugerida pelo usuário em 2026-11-12. Hoje o site pessoal não cita a ACK. Direção segura: pessoal → ACK (o pessoal já leva o nome). ACK → pessoal exige decisão do usuário, porque conflita com a regra "sem nome pessoal no site da ACK". Detalhes em `proximo-ciclo.md` |
+| Estratégia de backlinking com vitorbazevedo.com | Em andamento | Decisão do usuário (2026-11-12): link só do pessoal para a ACK. **Publicado** no vitorbazevedo.com: card em Atuação, item em Contato, rodapé de todas as páginas, author-box dos posts, `worksFor` no JSON-LD. Falta (com o usuário): página da ACK no LinkedIn, Search Console dos dois domínios. Ver `proximo-ciclo.md` |
 | E-mail no domínio | Ideia | Redirecionamento do WordPress.com ou caixa própria |
 | Versão em inglês | Ideia | Opcional. "Para todo o mundo" significa remote first, não exige versão em inglês |
 | Página/rascunho de cases | Ideia | Só com casos e números aprovados pelo usuário |
