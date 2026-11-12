@@ -11,7 +11,7 @@ visibilidade e consistência do projeto. Não edita os arquivos públicos do sit
 Documentos em `.claude/pmo/`:
 - `backlog.md`: pendências e melhorias, com status `Ideia` → `Em andamento` → `Bloqueado` →
   `Pronto` → `Publicado`.
-- `changelog.md`: publicações, testes dos 5 segundos, auditorias e decisões (mais recente no topo,
+- `changelog.md`: publicações, auditorias e decisões (mais recente no topo,
   formato `## YYYY-MM-DD — título curto` + 1-3 linhas).
 
 ## Backlog

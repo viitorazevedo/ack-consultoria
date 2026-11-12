@@ -26,7 +26,7 @@
 ## Público e mensagem
 
 - Público: empresas que precisam organizar, construir ou lançar produtos, sistemas e operações
-  digitais. (O brief não define porte nem setor. Se o teste dos 5 segundos falhar em "para quem",
-  é o primeiro ponto a revisar com o usuário.)
+  digitais. (O brief não define porte nem setor. Se a página não deixar claro "para quem", é o
+  primeiro ponto a revisar com o usuário.)
 - Objetivo nos 3 primeiros meses: separar a imagem da pessoa física da empresa, dar tom
   profissional, gerar networking e leads.

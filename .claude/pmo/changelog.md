@@ -4,6 +4,12 @@ Eventos e decisões que não ficam óbvios pelo `git log`. Mantido pelo agente `
 
 ---
 
+## 2026-11-12 — Botões de contato testados; teste dos 5 segundos removido
+
+Usuário testou WhatsApp e e-mail no celular. Decidiu não fazer o teste dos 5 segundos (critério
+do brief original deixa de valer). Escolha da ferramenta de métricas fica no backlog como
+prioridade alta.
+
 ## 2026-11-12 — HTTPS ativo
 
 O certificado não foi emitido sozinho em 1 hora. Resolvido removendo e adicionando o domínio no

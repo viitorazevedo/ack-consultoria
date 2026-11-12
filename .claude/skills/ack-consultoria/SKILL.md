@@ -47,10 +47,8 @@ texto final antes de acionar o `publisher`. Ajustes pequenos de texto que o usu�
 
 Antes de qualquer push com mudança visual ou de mensagem, publique uma prévia como artefato do
 Claude (Artifact tool, tipo "Design" para comparar variações lado a lado, ou página simples para
-revisar a página inteira) e mande o link ao usuário. A prévia é privada até ele compartilhar,
-então serve também para o **teste dos 5 segundos**: mostrar o hero por 5 segundos a 5 pessoas e
-perguntar o que a ACK faz e para quem. 4 de 5 acertos: segue. Menos de 3: reescrever o hero antes
-de divulgar. Registre o resultado em `.claude/pmo/changelog.md`.
+revisar a página inteira) e mande o link ao usuário. Só dê push depois da aprovação dele.
+Canvas atual: https://claude.ai/artifact/CUeGMpZKbGdtiLVCYe7aV1
 
 ## 4. Deploy
 

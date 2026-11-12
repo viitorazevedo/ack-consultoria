@@ -17,15 +17,14 @@ Status: `Ideia` → `Em andamento` → `Bloqueado` → `Pronto` → `Publicado`.
 | Identidade git dos commits | Pronto | Conta pessoal, com e-mail noreply do GitHub configurado só neste repositório |
 | DNS do domínio apontando para o GitHub Pages | Publicado | 4 registros A do GitHub + `www` CNAME `viitorazevedo.github.io`, no WordPress.com. Propagado em 2026-11-12. Ignorar os avisos "Restore default" do WordPress |
 | HTTPS (Enforce HTTPS) | Publicado | Certificado Let's Encrypt para `ackconsultoria.com` e `www`, válido até 2027-02-10 (renovação automática). HTTP e www redirecionam para https://ackconsultoria.com |
-| Testar links de WhatsApp e e-mail no celular | Ideia | Links conferidos no HTML publicado; falta o teste manual no celular |
-| Teste dos 5 segundos (5 pessoas) | Ideia | Canvas: https://claude.ai/artifact/CUeGMpZKbGdtiLVCYe7aV1 (versões A e B do hero). Registrar resultado no changelog |
+| Testar links de WhatsApp e e-mail no celular | Publicado | Testados pelo usuário no celular em 2026-11-12 |
 | Logotipo | Publicado | `assets/logo-ack.svg` no cabeçalho, rodapé e favicon; `assets/og-ack.png` para compartilhamento |
 
 ## Depois de publicar
 
 | Item | Status | Notas |
 |---|---|---|
-| Métricas de visitas e cliques em contato | Ideia | Ferramenta sem cookies. Botões já têm `data-track` |
+| **Escolher ferramenta de métricas** (visitas e cliques em contato) | Ideia — prioridade alta | Decisão importante, a fazer com calma. Critérios: sem cookies (dispensa banner LGPD), gratuita ou barata, conta eventos de clique. Botões já têm `data-track` (`cta-hero`, `contato-whatsapp`, `contato-email`) |
 | E-mail no domínio | Ideia | Redirecionamento do WordPress.com ou caixa própria |
 | Versão em inglês | Ideia | Opcional. "Para todo o mundo" significa remote first, não exige versão em inglês |
 | Página/rascunho de cases | Ideia | Só com casos e números aprovados pelo usuário |
