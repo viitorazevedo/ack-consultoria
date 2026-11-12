@@ -4,6 +4,11 @@ Eventos e decisões que não ficam óbvios pelo `git log`. Mantido pelo agente `
 
 ---
 
+## 2026-11-12 — E-mail no domínio: contato@ackconsultoria.com
+
+Redirecionamento gratuito do WordPress.com para o Gmail, testado pelo usuário. LP, JSON-LD e
+canvas passaram a usar `contato@ackconsultoria.com`. Registros do site no DNS não mudaram.
+
 ## 2026-11-12 — Backlinking publicado no site pessoal
 
 vitorbazevedo.com passou a linkar a ACK (Atuação, Contato, rodapé, author-box, `worksFor`).

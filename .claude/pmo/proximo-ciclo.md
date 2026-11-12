@@ -58,9 +58,9 @@ Medir: visitas vindas de `vitorbazevedo.com` e do LinkedIn (depende do item 1).
 
 ### 3. E-mail no domínio
 
-- [ ] Verificar no WordPress.com se há redirecionamento de e-mail gratuito para o domínio.
-- [ ] Criar `contato@ackconsultoria.com` redirecionando para o Gmail atual.
-- [ ] Trocar o e-mail na LP, no JSON-LD e nas regras de conteúdo; testar o envio.
+- [x] Verificar no WordPress.com se há redirecionamento de e-mail gratuito para o domínio.
+- [x] Criar `contato@ackconsultoria.com` redirecionando para o Gmail atual.
+- [x] Trocar o e-mail na LP, no JSON-LD e nas regras de conteúdo; testar o envio.
 - [ ] Opcional: configurar o Gmail para responder como `contato@` (exige SMTP ou caixa paga).
 
 ### 4. Aba de notícias (fintechs, FIDCs, fraudes)
