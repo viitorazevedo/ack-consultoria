@@ -15,8 +15,9 @@ Status: `Ideia` → `Em andamento` → `Bloqueado` → `Pronto` → `Publicado`.
 | CNPJ no rodapé | Pronto | 66.137.185/0001-99, também no JSON-LD (`taxID`) |
 | Repositório no GitHub | Pronto | https://github.com/viitorazevedo/ack-consultoria, Pages ativo na `main` com domínio `ackconsultoria.com` |
 | Identidade git dos commits | Pronto | Conta pessoal, com e-mail noreply do GitHub configurado só neste repositório |
-| DNS do domínio apontando para o GitHub Pages | Bloqueado | Com o usuário, no WordPress.com: trocar os A 192.0.78.24/25 pelos 4 IPs do GitHub e o `www` por CNAME `viitorazevedo.github.io` |
-| HTTPS (Enforce HTTPS) | Bloqueado | Depende do DNS propagar e do certificado ser emitido |
+| DNS do domínio apontando para o GitHub Pages | Publicado | 4 registros A do GitHub + `www` CNAME `viitorazevedo.github.io`, no WordPress.com. Propagado em 2026-11-12. Ignorar os avisos "Restore default" do WordPress |
+| HTTPS (Enforce HTTPS) | Em andamento | Site no ar por HTTP. Aguardando o GitHub emitir o certificado; depois marcar Enforce HTTPS |
+| Testar links de WhatsApp e e-mail no celular | Ideia | Fazer com o HTTPS ativo |
 | Teste dos 5 segundos (5 pessoas) | Ideia | Canvas: https://claude.ai/artifact/CUeGMpZKbGdtiLVCYe7aV1 (versões A e B do hero). Registrar resultado no changelog |
 | Logotipo | Ideia | Opcional para a v1. Hoje a marca é tipográfica |
 

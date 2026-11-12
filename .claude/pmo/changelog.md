@@ -4,6 +4,11 @@ Eventos e decisões que não ficam óbvios pelo `git log`. Mantido pelo agente `
 
 ---
 
+## 2026-11-12 — DNS trocado: site no ar em ackconsultoria.com
+
+DNS no WordPress.com apontado para o GitHub Pages. A LP responde em `http://ackconsultoria.com/`
+e o `www` redireciona. `vitorbazevedo.com` conferido e sem impacto. HTTPS aguardando certificado.
+
 ## 2026-11-12 — Publicação da v1 no GitHub Pages
 
 Repositório `viitorazevedo/ack-consultoria` criado (público), Pages ativo na `main` com domínio
