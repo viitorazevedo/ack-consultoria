@@ -28,3 +28,4 @@ Status: `Ideia` → `Em andamento` → `Bloqueado` → `Pronto` → `Publicado`.
 | E-mail no domínio | Ideia | Redirecionamento do WordPress.com ou caixa própria |
 | Versão em inglês | Ideia | Opcional. "Para todo o mundo" significa remote first, não exige versão em inglês |
 | Página/rascunho de cases | Ideia | Só com casos e números aprovados pelo usuário |
+| Nova aba de notícias do mercado financeiro (fintechs, FIDCs, fraudes) | Ideia | Sugerida pelo usuário em 2026-11-12. Primeira página além da LP: a nav passa a ser replicada em cada arquivo (SKILL, seção 2). A definir: frequência, formato (curadoria com resumo + link para a fonte, ou análise própria), e se reaproveita o pipeline writer → editor → seo-optimizer → publisher. Notícia sempre com fonte e data; resumo curto com link, sem copiar texto de terceiros. Existe a pasta `~/Documents/news_antifraud` (vazia hoje) que pode ser relacionada |
