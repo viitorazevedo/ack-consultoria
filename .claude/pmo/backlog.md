@@ -4,6 +4,8 @@ Fonte única de verdade sobre o que falta para publicar e o que vem depois. Mant
 
 Status: `Ideia` → `Em andamento` → `Bloqueado` → `Pronto` → `Publicado`.
 
+Proposta de ordem e próximos passos do próximo ciclo: [`proximo-ciclo.md`](proximo-ciclo.md).
+
 ## Para publicar a v1
 
 | Item | Status | Notas |
@@ -25,6 +27,7 @@ Status: `Ideia` → `Em andamento` → `Bloqueado` → `Pronto` → `Publicado`.
 | Item | Status | Notas |
 |---|---|---|
 | **Escolher ferramenta de métricas** (visitas e cliques em contato) | Ideia — prioridade alta | Decisão importante, a fazer com calma. Critérios: sem cookies (dispensa banner LGPD), gratuita ou barata, conta eventos de clique. Botões já têm `data-track` (`cta-hero`, `contato-whatsapp`, `contato-email`) |
+| Estratégia de backlinking com vitorbazevedo.com | Ideia | Sugerida pelo usuário em 2026-11-12. Hoje o site pessoal não cita a ACK. Direção segura: pessoal → ACK (o pessoal já leva o nome). ACK → pessoal exige decisão do usuário, porque conflita com a regra "sem nome pessoal no site da ACK". Detalhes em `proximo-ciclo.md` |
 | E-mail no domínio | Ideia | Redirecionamento do WordPress.com ou caixa própria |
 | Versão em inglês | Ideia | Opcional. "Para todo o mundo" significa remote first, não exige versão em inglês |
 | Página/rascunho de cases | Ideia | Só com casos e números aprovados pelo usuário |

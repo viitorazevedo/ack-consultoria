@@ -4,6 +4,12 @@ Eventos e decisões que não ficam óbvios pelo `git log`. Mantido pelo agente `
 
 ---
 
+## 2026-11-12 — Plano do próximo ciclo preparado
+
+Novas ideias no backlog: aba de notícias (fintechs, FIDCs, fraudes) e backlinking com
+vitorbazevedo.com. Proposta de ordem e próximos passos em `proximo-ciclo.md`, aguardando
+priorização do usuário.
+
 ## 2026-11-12 — Botões de contato testados; teste dos 5 segundos removido
 
 Usuário testou WhatsApp e e-mail no celular. Decidiu não fazer o teste dos 5 segundos (critério
