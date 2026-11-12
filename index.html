@@ -14,13 +14,18 @@
   <meta property="og:url" content="https://ackconsultoria.com/">
   <meta property="og:site_name" content="ACK Consultoria">
   <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="https://ackconsultoria.com/assets/og-ack.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo da ACK Consultoria: selo verde com as letras ACK e três barras crescentes">
 
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ackconsultoria.com/assets/og-ack.png">
   <meta name="twitter:title" content="ACK Consultoria | Gestão de produtos, sistemas e consultoria">
   <meta name="twitter:description" content="Gestão de projetos e produtos digitais, desenvolvimento de sistemas, consultoria em agilidade e marketing. São José dos Campos, SP, e remoto.">
 
-  <meta name="theme-color" content="#0D1B2A">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230D1B2A'/%3E%3Ctext x='10' y='45' font-family='Arial,sans-serif' font-weight='700' font-size='34' fill='%23EAF0F5'%3EA%3C/text%3E%3Crect x='42' y='38' width='8' height='8' fill='%2335C2B8'/%3E%3C/svg%3E">
+  <meta name="theme-color" content="#0F6E56">
+  <link rel="icon" type="image/svg+xml" href="assets/logo-ack.svg">
 
   <script type="application/ld+json">
   {
@@ -29,6 +34,8 @@
     "name": "ACK Consultoria",
     "legalName": "ACK Consultoria LTDA",
     "url": "https://ackconsultoria.com/",
+    "logo": "https://ackconsultoria.com/assets/logo-ack.svg",
+    "image": "https://ackconsultoria.com/assets/og-ack.png",
     "description": "Gestão de projetos e produtos digitais, desenvolvimento de sistemas, consultoria em agilidade e marketing.",
     "address": { "@type": "PostalAddress", "addressLocality": "São José dos Campos", "addressRegion": "SP", "addressCountry": "BR" },
     "areaServed": "Worldwide",
@@ -46,7 +53,7 @@
     /* Layout: página única, coluna de 1080px; hero em duas colunas (mensagem + lista de serviços), faixa escura de método, contato ao final. */
     :root{
       --bg:#F2F5F7; --surface:#FFFFFF; --ink:#0D1B2A; --ink-soft:#44546A; --line:#D5DDE5;
-      --accent:#0B7A75; --accent-ink:#FFFFFF; --band:#0D1B2A; --band-ink:#EAF0F5; --band-soft:#9FB1C4;
+      --accent:#0F6E56; --accent-ink:#FFFFFF; --mint:#9FE1CB; --band:#0D1B2A; --band-ink:#EAF0F5; --band-soft:#9FB1C4;
       --font-display:'Space Grotesk','Helvetica Neue',Arial,sans-serif;
       --font-body:'Inter','Helvetica Neue',Arial,sans-serif;
       color-scheme:light;
@@ -54,12 +61,12 @@
     @media (prefers-color-scheme: dark){
       :root:not([data-theme="light"]){
         --bg:#0A131D; --surface:#111F2E; --ink:#EAF0F5; --ink-soft:#9FB1C4; --line:#223245;
-        --accent:#35C2B8; --accent-ink:#06201F; --band:#050B12; --band-ink:#EAF0F5; --band-soft:#8CA0B5; color-scheme:dark;
+        --accent:#9FE1CB; --accent-ink:#06201F; --band:#050B12; --band-ink:#EAF0F5; --band-soft:#8CA0B5; color-scheme:dark;
       }
     }
     :root[data-theme="dark"]{
       --bg:#0A131D; --surface:#111F2E; --ink:#EAF0F5; --ink-soft:#9FB1C4; --line:#223245;
-      --accent:#35C2B8; --accent-ink:#06201F; --band:#050B12; --band-ink:#EAF0F5; --band-soft:#8CA0B5; color-scheme:dark;
+      --accent:#9FE1CB; --accent-ink:#06201F; --band:#050B12; --band-ink:#EAF0F5; --band-soft:#8CA0B5; color-scheme:dark;
     }
     *{box-sizing:border-box;}
     html{scroll-behavior:smooth;}
@@ -69,8 +76,11 @@
     .skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:var(--accent-ink);padding:8px 12px;z-index:10;}
     .skip:focus{left:16px;top:16px;}
     header .in{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:20px;flex-wrap:wrap;}
-    .brand{font-family:var(--font-display);font-weight:700;font-size:22px;letter-spacing:0.5px;color:var(--ink);text-decoration:none;}
-    .brand span{color:var(--accent);}
+    .brand{display:inline-flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:500;font-size:20px;color:var(--ink-soft);text-decoration:none;}
+    .brand img{display:block;flex:none;}
+    .brand b{font-weight:700;color:var(--ink);letter-spacing:0.3px;}
+    .foot-brand{display:inline-flex;align-items:center;gap:8px;}
+    .foot-brand img{display:block;flex:none;}
     nav ul{display:flex;gap:20px;font-size:14px;flex-wrap:wrap;list-style:none;margin:0;padding:0;}
     nav a{color:var(--ink-soft);text-decoration:none;}
     nav a:hover{color:var(--ink);}
@@ -103,7 +113,7 @@
     .band .sec-title{color:var(--band-ink);}
     .band .sub{color:var(--band-soft);}
     .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin:0;padding:0;list-style:none;counter-reset:s;}
-    .steps li{border-top:2px solid var(--accent);padding-top:16px;min-width:0;counter-increment:s;}
+    .steps li{border-top:2px solid var(--mint);padding-top:16px;min-width:0;counter-increment:s;}
     .steps li::before{content:"Etapa " counter(s);display:block;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--band-soft);margin-bottom:6px;}
     .steps h3{font-family:var(--font-display);font-size:19px;margin:0 0 6px;font-weight:600;}
     .steps p{margin:0;font-size:14.5px;color:var(--band-soft);}
@@ -130,7 +140,7 @@
 
 <header>
   <div class="in">
-    <a class="brand" href="#topo" id="topo">ACK<span>.</span> Consultoria</a>
+    <a class="brand" href="#topo" id="topo"><img src="assets/logo-ack.svg" width="40" height="40" alt=""><span><b>ACK</b> Consultoria</span></a>
     <nav aria-label="Seções">
       <ul>
         <li><a href="#servicos">Serviços</a></li>
@@ -209,7 +219,7 @@
 </main>
 
 <footer>
-  <div class="in"><span>&#169; 2026 ACK Consultoria LTDA · CNPJ 66.137.185/0001-99</span><span>Gestão de projetos e produtos, sistemas, consultoria e marketing</span></div>
+  <div class="in"><span class="foot-brand"><img src="assets/logo-ack.svg" width="22" height="22" alt="">&#169; 2026 ACK Consultoria LTDA · CNPJ 66.137.185/0001-99</span><span>Gestão de projetos e produtos, sistemas, consultoria e marketing</span></div>
 </footer>
 
 <!-- Métricas: snippet da ferramenta escolhida entra aqui (sem cookies). Os links com data-track são os eventos de conversão. -->

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ACK Consultoria">
+  <rect width="64" height="64" rx="13" fill="#0F6E56"/>
+  <text x="32" y="28.9" text-anchor="middle" textLength="39" lengthAdjust="spacingAndGlyphs" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="500" fill="#FFFFFF">ACK</text>
+  <rect x="22.1" y="49.4" width="4.6" height="5.8" rx="0.8" fill="#9FE1CB"/>
+  <rect x="29.7" y="45.0" width="4.6" height="10.2" rx="0.8" fill="#9FE1CB"/>
+  <rect x="37.2" y="40.6" width="4.6" height="14.6" rx="0.8" fill="#9FE1CB"/>
+</svg>

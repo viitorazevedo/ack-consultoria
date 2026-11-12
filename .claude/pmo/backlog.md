@@ -19,7 +19,7 @@ Status: `Ideia` → `Em andamento` → `Bloqueado` → `Pronto` → `Publicado`.
 | HTTPS (Enforce HTTPS) | Em andamento | Site no ar por HTTP. Aguardando o GitHub emitir o certificado; depois marcar Enforce HTTPS |
 | Testar links de WhatsApp e e-mail no celular | Ideia | Fazer com o HTTPS ativo |
 | Teste dos 5 segundos (5 pessoas) | Ideia | Canvas: https://claude.ai/artifact/CUeGMpZKbGdtiLVCYe7aV1 (versões A e B do hero). Registrar resultado no changelog |
-| Logotipo | Ideia | Opcional para a v1. Hoje a marca é tipográfica |
+| Logotipo | Pronto | `assets/logo-ack.svg` no cabeçalho, rodapé e favicon; `assets/og-ack.png` para compartilhamento. Aguardando aprovação no canvas para o push |
 
 ## Depois de publicar
 
