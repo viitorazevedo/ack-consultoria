@@ -13,9 +13,10 @@ Status: `Ideia` → `Em andamento` → `Bloqueado` → `Pronto` → `Publicado`.
 | WhatsApp de contato | Pronto | (12) 99121-1582, link `wa.me/5512991211582` |
 | Área de atendimento | Pronto | São José dos Campos, SP, e remoto para todo o mundo |
 | CNPJ no rodapé | Pronto | 66.137.185/0001-99, também no JSON-LD (`taxID`) |
-| Repositório no GitHub | Em andamento | `viitorazevedo/ack-consultoria` (conta pessoal, projeto separado do site pessoal) |
+| Repositório no GitHub | Pronto | https://github.com/viitorazevedo/ack-consultoria, Pages ativo na `main` com domínio `ackconsultoria.com` |
 | Identidade git dos commits | Pronto | Conta pessoal, com e-mail noreply do GitHub configurado só neste repositório |
-| DNS do domínio apontando para o GitHub Pages | Bloqueado | Depende do repositório. 4 registros A + CNAME `www` no painel do WordPress.com |
+| DNS do domínio apontando para o GitHub Pages | Bloqueado | Com o usuário, no WordPress.com: trocar os A 192.0.78.24/25 pelos 4 IPs do GitHub e o `www` por CNAME `viitorazevedo.github.io` |
+| HTTPS (Enforce HTTPS) | Bloqueado | Depende do DNS propagar e do certificado ser emitido |
 | Teste dos 5 segundos (5 pessoas) | Ideia | Canvas: https://claude.ai/artifact/CUeGMpZKbGdtiLVCYe7aV1 (versões A e B do hero). Registrar resultado no changelog |
 | Logotipo | Ideia | Opcional para a v1. Hoje a marca é tipográfica |
 

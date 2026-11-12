@@ -4,6 +4,11 @@ Eventos e decisões que não ficam óbvios pelo `git log`. Mantido pelo agente `
 
 ---
 
+## 2026-11-12 — Publicação da v1 no GitHub Pages
+
+Repositório `viitorazevedo/ack-consultoria` criado (público), Pages ativo na `main` com domínio
+`ackconsultoria.com`. O site só abre no domínio depois da troca de DNS no WordPress.com.
+
 ## 2026-11-12 — Decisão: repositório e commits na conta pessoal do GitHub
 
 Repositório `viitorazevedo/ack-consultoria`, projeto separado do site pessoal. Commits com a
