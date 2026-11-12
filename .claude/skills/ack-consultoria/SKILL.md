@@ -75,8 +75,11 @@ git commit -m "mensagem descrevendo a mudança"
 git push origin main
 ```
 
-Depois do push, a mudança aparece no domínio da ACK em alguns minutos. Na primeira publicação,
-confira em Settings → Pages que o domínio está verificado e que "Enforce HTTPS" está marcado.
+Depois do push, a mudança aparece em https://ackconsultoria.com em alguns minutos (HTTPS forçado).
+
+Se o certificado HTTPS travar (domínio responde com certificado `*.github.io`), remova e
+adicione de novo o domínio no Pages. Isso cria commits do próprio GitHub no `CNAME`: rode
+`git pull --ff-only` antes do próximo commit local.
 
 **Conta do GitHub:** o repositório é `viitorazevedo/ack-consultoria`, na conta pessoal do
 usuário (decisão de 2026-11-12), como um projeto separado do site pessoal. Esta máquina também

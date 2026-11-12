@@ -4,6 +4,17 @@ Eventos e decisões que não ficam óbvios pelo `git log`. Mantido pelo agente `
 
 ---
 
+## 2026-11-12 — HTTPS ativo
+
+O certificado não foi emitido sozinho em 1 hora. Resolvido removendo e adicionando o domínio no
+Pages, o que gerou dois commits do GitHub no `CNAME` (Delete/Create). Enforce HTTPS ligado.
+
+## 2026-11-12 — Logo publicado
+
+Selo da ACK em SVG no cabeçalho, rodapé e favicon; imagem de compartilhamento 1200×630;
+destaque da paleta alinhado ao verde do logo (`#0F6E56`) e à menta das barras (`#9FE1CB`).
+Miniaturas para o LinkedIn geradas em `entregas/linkedin/` (fora do repositório).
+
 ## 2026-11-12 — DNS trocado: site no ar em ackconsultoria.com
 
 DNS no WordPress.com apontado para o GitHub Pages. A LP responde em `http://ackconsultoria.com/`

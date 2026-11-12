@@ -16,10 +16,10 @@ Status: `Ideia` → `Em andamento` → `Bloqueado` → `Pronto` → `Publicado`.
 | Repositório no GitHub | Pronto | https://github.com/viitorazevedo/ack-consultoria, Pages ativo na `main` com domínio `ackconsultoria.com` |
 | Identidade git dos commits | Pronto | Conta pessoal, com e-mail noreply do GitHub configurado só neste repositório |
 | DNS do domínio apontando para o GitHub Pages | Publicado | 4 registros A do GitHub + `www` CNAME `viitorazevedo.github.io`, no WordPress.com. Propagado em 2026-11-12. Ignorar os avisos "Restore default" do WordPress |
-| HTTPS (Enforce HTTPS) | Em andamento | Site no ar por HTTP. Aguardando o GitHub emitir o certificado; depois marcar Enforce HTTPS |
-| Testar links de WhatsApp e e-mail no celular | Ideia | Fazer com o HTTPS ativo |
+| HTTPS (Enforce HTTPS) | Publicado | Certificado Let's Encrypt para `ackconsultoria.com` e `www`, válido até 2027-02-10 (renovação automática). HTTP e www redirecionam para https://ackconsultoria.com |
+| Testar links de WhatsApp e e-mail no celular | Ideia | Links conferidos no HTML publicado; falta o teste manual no celular |
 | Teste dos 5 segundos (5 pessoas) | Ideia | Canvas: https://claude.ai/artifact/CUeGMpZKbGdtiLVCYe7aV1 (versões A e B do hero). Registrar resultado no changelog |
-| Logotipo | Pronto | `assets/logo-ack.svg` no cabeçalho, rodapé e favicon; `assets/og-ack.png` para compartilhamento. Aguardando aprovação no canvas para o push |
+| Logotipo | Publicado | `assets/logo-ack.svg` no cabeçalho, rodapé e favicon; `assets/og-ack.png` para compartilhamento |
 
 ## Depois de publicar
 
